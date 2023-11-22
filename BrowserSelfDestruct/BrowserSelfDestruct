@@ -1,0 +1,11 @@
+javascript: 
+alert("Just so you know, this will actually crash your browser.");
+var death = window.confirm("Are you sure?");
+if(death == true){
+    alert("LAST CHANCE TO EXIT");
+    while(true){
+        location.reload();
+    }
+} else {
+    alert("Good choice")
+}
